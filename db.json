@@ -1,0 +1,21 @@
+{
+    "users":[
+        {
+            "id":0,
+            "username":"",
+            "email":"",
+            "password":"",
+            "savedImages":[
+                {
+                    "id":0
+                }
+            ]
+        }
+    ],
+    "images":[
+        {
+            "id":0,
+            "url":"https://images.unsplash.com/photo-1575141251061-c8259641ed63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        }
+    ]
+}

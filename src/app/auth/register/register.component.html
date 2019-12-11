@@ -1,0 +1,27 @@
+<form (ngSubmit)="submitForm()">
+    <fieldset>
+        <label>
+            <input type="text" (value)="name" (input)="name = $event.target.value">
+            Name
+        </label>
+    </fieldset>
+    <fieldset>
+        <label>
+             <input type="text" (value)="email" (input)="email = $event.target.value">
+             Email
+        </label>
+    </fieldset>
+    <fieldset>
+        <label>
+             <input type="text" (value)="password" (input)="password = $event.target.value">
+             Password
+        </label>
+    </fieldset>
+    <fieldset>
+        <label>
+            <input type="text" (value)="confirmPassword" (input)="confirmPassword = $event.target.value">
+            Confirm Password
+        </label>
+    </fieldset>
+    <button [disabled]="isDisabledRegisterButton">Register</button>
+</form>
