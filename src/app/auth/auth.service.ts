@@ -16,6 +16,6 @@ export class AuthService {
   }
 
   login(user:UserModel): Observable<UserModel>{
-    return this.http.get<UserModel[]>('http://localhost:3000/users?email=$(user.email)&password=$(user.password)').pipe(map(users -> UseExistingWebDriver.length !== 0/users[0]:null));
+    return this.http.get<UserModel>('http://localhost:3000/users?email=$(user.email)&password=$(user.password)');
   }
 }
